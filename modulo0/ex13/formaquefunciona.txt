@@ -1,0 +1,1 @@
+gcc -Wall line.c multiplication_table_n.c multiplication_table.c main.c -o prog

@@ -1,0 +1,35 @@
+#Ignore all without extension
+*
+
+#Do not ignore files named Makefile and makefile
+!Makefile*
+!makefile*
+       
+#Do not ignore all with extensions
+!*.*
+
+#Do not ignore all directories
+!*/
+
+#Ignore temp files
+*~ 
+*.swp
+.DS_Store
+
+#Ignore geany script
+geany_run_script.sh
+
+#Ignore object files
+*.o
+
+#Ignore unity test files
+unity.*
+unity_internals.*
+
+#Ignore test package
+modulo1/testes
+modulo2/testes
+modulo3/testes
+modulo4/testes
+modulo5/testes
+modulo6/testes
